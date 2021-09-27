@@ -13,7 +13,7 @@ namespace prvw
 
             var nativeWindowSettings = new NativeWindowSettings()
             {
-                //StartVisible = false,
+                StartVisible = false,
                 Size = new Vector2i(800, 600),
                 Title = "LearnOpenTK - Textures",
             };
@@ -21,7 +21,7 @@ namespace prvw
             using (var window = new Window(GameWindowSettings.Default, nativeWindowSettings))
             {
                 
-                //window.IsVisible = false;
+                window.IsVisible = false;
                 window.Run();
             }
 

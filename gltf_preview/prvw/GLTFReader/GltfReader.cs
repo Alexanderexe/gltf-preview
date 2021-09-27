@@ -15,6 +15,7 @@ namespace prvw.GLTFReader
         public static ModelRoot LoadGltfFromFile(string path)
         {
             return ModelRoot.Load(path);
+            
         }
     }
 }

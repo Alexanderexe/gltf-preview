@@ -42,9 +42,9 @@ namespace prvw.GLTFReader
             var listVertices = new List<float>();
             for (int i = 0; i < Xs.Count; i++)
             {
-                listVertices.Add(Xs[i] * 5);
-                listVertices.Add(Ys[i] * 5);
-                listVertices.Add(Zs[i] * 5);
+                listVertices.Add(Xs[i]);
+                listVertices.Add(Ys[i]);
+                listVertices.Add(Zs[i]);
                 listVertices.Add(TexCordXs[i]);
                 listVertices.Add(TexCordYs[i]);
             }
